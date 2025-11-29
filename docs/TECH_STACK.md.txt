@@ -1,0 +1,9 @@
+# Tech Stack
+
+Frontend: Next.js 15, TypeScript, TailwindCSS, React Query, Zustand  
+Mobile: React Native + Expo  
+Backend: Laravel 11, PostgreSQL, Sanctum, Spatie Permissions  
+AI: OpenAI API (GPT-4.1/5)  
+Payments: Stripe  
+PDF: Puppeteer  
+Hosting: cPanel (PHP 8.2, Node 18)

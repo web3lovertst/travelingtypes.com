@@ -1,0 +1,19 @@
+# TravelingTypes — Project Overview
+
+TravelingTypes is a modern AI-powered travel planning platform.
+The goal is to identify a user's Traveler Type through a quiz and generate personalized travel itineraries, budgets, hotels, and recommendations.
+
+The platform includes:
+- Web app (Next.js)
+- Mobile app (React Native)
+- Backend API (Laravel + PostgreSQL)
+- Admin dashboard (Filament)
+- Stripe payments
+- PDF generation
+- AI itinerary engine (OpenAI)
+
+Core goals:
+- Scalability
+- Clean architecture
+- Modular code
+- Multi-platform (Web + Mobile)

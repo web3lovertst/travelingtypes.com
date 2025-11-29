@@ -1,0 +1,19 @@
+# User Stories
+
+## Authentication
+- As a user, I want to register and log in using email or social login.
+
+## Quiz
+- As a visitor, I want to complete a quiz to discover my traveler type.
+
+## AI Generation
+- As a user, I want to generate personalized itineraries based on my profile.
+
+## PDF
+- As a user, I want to download my itinerary in a premium PDF format.
+
+## Payments
+- As a user, I want to pay with Stripe for premium features and plans.
+
+## Admin
+- As an admin, I want to manage users, destinations, itineraries, and analytics.

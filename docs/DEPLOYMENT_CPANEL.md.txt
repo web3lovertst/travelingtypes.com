@@ -1,0 +1,18 @@
+# Deployment to cPanel
+
+cPanel cannot be controlled directly by Cursor.
+
+Deployment method:
+1. Create a Git repository in cPanel.
+2. Push your code from Cursor to GitHub.
+3. Connect GitHub repo → cPanel Git deployment tool.
+4. Auto-pull on each commit.
+
+Alternative for Laravel on cPanel:
+- backend in /backend
+- public html points to /backend/public
+
+Node apps cannot run permanently on standard cPanel; use:
+- static export for Next.js
+OR
+- deploy Next.js on Vercel and backend on cPanel

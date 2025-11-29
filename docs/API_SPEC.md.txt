@@ -1,0 +1,22 @@
+# API Specification (Laravel)
+
+Authentication:
+POST /auth/register
+POST /auth/login
+GET  /auth/me
+
+Quiz:
+POST /quiz/submit
+
+Traveler Types:
+GET /traveler-types
+GET /traveler-types/{id}
+
+Itineraries:
+POST /itineraries/generate
+GET  /itineraries/{id}
+POST /itineraries/{id}/pdf
+
+Payments:
+POST /payments/checkout
+GET  /payments/status

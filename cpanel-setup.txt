@@ -1,0 +1,35 @@
+================================================================================
+                    CPANEL SETUP - QUICK REFERENCE
+================================================================================
+
+STEP 1: ENABLE AUTO-DEPLOY
+---------------------------
+Location: cPanel → Git Version Control → Manage → Enable "Auto Deploy"
+
+STEP 2: BACKEND DOMAIN SETUP
+-----------------------------
+Location: cPanel → Subdomains
+Subdomain: backend.travelingtypes.com
+Document Root: /home/YOUR_USERNAME/travelingtypes.com/backend/public
+
+STEP 3: FRONTEND DOMAIN SETUP
+------------------------------
+Option A (Recommended): Deploy to Vercel
+- Go to vercel.com
+- Import: web3lovertst/travelingtypes.com
+- Root: frontend
+
+Option B (cPanel): 
+Location: cPanel → Subdomains
+Domain: travelingtypes.com
+Document Root: /home/YOUR_USERNAME/travelingtypes.com/frontend/out
+
+STEP 4: ENVIRONMENT FILES
+--------------------------
+Backend: Create .env in /backend/ folder
+Frontend: Create .env.local in /frontend/ folder
+
+See backend/.env.example and frontend/.env.example for templates
+
+================================================================================
+

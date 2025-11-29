@@ -1,0 +1,14 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/$USER/travelingtypes.com
+    - /bin/cp -R $DEPLOYPATH $DEPLOYPATH.backup
+    - /bin/cd $DEPLOYPATH/backend
+    - /usr/local/bin/php /usr/local/bin/composer install --no-dev --optimize-autoloader --no-interaction
+    - /usr/local/bin/php artisan config:cache || true
+    - /usr/local/bin/php artisan route:cache || true
+    - /usr/local/bin/php artisan view:cache || true
+    - /bin/chmod -R 755 $DEPLOYPATH/backend/storage
+    - /bin/chmod -R 755 $DEPLOYPATH/backend/bootstrap/cache
+    - /bin/echo "Deployment completed successfully"
+

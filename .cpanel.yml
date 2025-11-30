@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/$USER/travelingtypes.com
+    - export DEPLOYPATH=/home/$USER/repositories/travelingtypes.com
     - cd $DEPLOYPATH/backend && /usr/local/bin/php /usr/local/bin/composer install --no-dev --optimize-autoloader --no-interaction || true
     - cd $DEPLOYPATH/backend && /usr/local/bin/php artisan config:cache || true
     - cd $DEPLOYPATH/backend && /usr/local/bin/php artisan route:cache || true

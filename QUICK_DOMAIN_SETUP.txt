@@ -1,0 +1,37 @@
+================================================================================
+           QUICK DOMAIN SETUP - Make travelingtypes.com Work
+================================================================================
+
+YOUR REPOSITORY LOCATION:
+  repositories/travelingtypes.com/
+
+TO MAKE travelingtypes.com ACCESSIBLE:
+
+STEP 1: Configure Domain Document Root
+---------------------------------------
+1. Go to: cPanel → Addon Domains (or Subdomains)
+2. Find: travelingtypes.com
+3. Click: "Change" or "Modify"
+4. Set Document Root to:
+   repositories/travelingtypes.com/backend/public
+   
+   OR full path:
+   /home/YOUR_USERNAME/repositories/travelingtypes.com/backend/public
+
+5. Click: "Change" or "Save"
+6. Done! ✅
+
+================================================================================
+
+RECOMMENDED SETUP (Frontend + Backend):
+---------------------------------------
+
+Main Domain (travelingtypes.com):
+  → Point to: repositories/travelingtypes.com/frontend/out
+  OR deploy to Vercel (easier!)
+
+Backend API (api.travelingtypes.com):
+  → Point to: repositories/travelingtypes.com/backend/public
+
+================================================================================
+

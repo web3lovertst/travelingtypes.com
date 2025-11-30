@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Make travelingtypes.com Work - Simple Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 18px;
+        }
+        .step {
+            background: #f8f9fa;
+            border-left: 5px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .step-number {
+            background: #667eea;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 20px;
+            margin-right: 15px;
+        }
+        .step h2 {
+            color: #333;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .step p {
+            color: #555;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        .code-box {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            margin: 15px 0;
+            font-size: 14px;
+            word-break: break-all;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .button {
+            background: #667eea;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px 5px;
+            display: inline-block;
+        }
+        .button:hover {
+            background: #5568d3;
+        }
+        .warning {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .success {
+            background: #d4edda;
+            border-left: 5px solid #28a745;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        ul {
+            margin: 10px 0 10px 20px;
+        }
+        li {
+            margin: 8px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌐 Make travelingtypes.com Work</h1>
+        <p class="subtitle">Follow these 5 simple steps - No technical knowledge needed!</p>
+
+        <div class="step">
+            <h2><span class="step-number">1</span> Open cPanel</h2>
+            <p>Log into your cPanel account. You should see a dashboard with many icons/buttons.</p>
+        </div>
+
+        <div class="step">
+            <h2><span class="step-number">2</span> Find "Addon Domains" or "Subdomains"</h2>
+            <p>Look for one of these buttons in your cPanel:</p>
+            <ul>
+                <li><span class="highlight">Addon Domains</span> (most common)</li>
+                <li><span class="highlight">Subdomains</span></li>
+                <li><span class="highlight">Domains</span></li>
+                <li><span class="highlight">Domain Manager</span></li>
+            </ul>
+            <p>Click on whichever one you find.</p>
+        </div>
+
+        <div class="step">
+            <h2><span class="step-number">3</span> Find Your Domain</h2>
+            <p>You should see a list of your domains. Look for <span class="highlight">travelingtypes.com</span> in the list.</p>
+            <p>Next to it, you'll see a button that says:</p>
+            <ul>
+                <li><span class="highlight">Change</span></li>
+                <li><span class="highlight">Modify</span></li>
+                <li><span class="highlight">Edit</span></li>
+            </ul>
+            <p>Click that button.</p>
+        </div>
+
+        <div class="step">
+            <h2><span class="step-number">4</span> Change the Path</h2>
+            <p>You'll see a box labeled <span class="highlight">"Document Root"</span> or <span class="highlight">"Root Domain"</span>.</p>
+            <p><strong>Delete everything in that box</strong> and type this EXACTLY:</p>
+            <div class="code-box">repositories/travelingtypes.com/backend/public</div>
+            <p class="warning"><strong>⚠️ Important:</strong> Copy and paste it exactly as shown above. Don't change anything!</p>
+        </div>
+
+        <div class="step">
+            <h2><span class="step-number">5</span> Save and Wait</h2>
+            <p>Click the <span class="highlight">"Change"</span> or <span class="highlight">"Save"</span> button.</p>
+            <p>Wait 5-10 minutes for the changes to take effect.</p>
+            <p>Then visit <strong>travelingtypes.com</strong> in your browser - it should work! 🎉</p>
+        </div>
+
+        <div class="warning">
+            <h3>❓ Can't Find "Addon Domains"?</h3>
+            <p>If you don't see "Addon Domains", try looking for:</p>
+            <ul>
+                <li>Subdomains</li>
+                <li>Domains</li>
+                <li>Domain Manager</li>
+                <li>Redirects</li>
+            </ul>
+            <p><strong>Still can't find it?</strong> Take a screenshot of your cPanel and I'll help you find the right button!</p>
+        </div>
+
+        <div class="success">
+            <h3>✅ That's It!</h3>
+            <p>After these 5 steps, your website will be accessible at <strong>travelingtypes.com</strong>.</p>
+            <p>If something doesn't work, just tell me which step you're stuck on and I'll help you!</p>
+        </div>
+    </div>
+</body>
+</html>
+

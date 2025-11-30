@@ -1,0 +1,46 @@
+================================================================================
+                          START HERE - VERY SIMPLE!
+================================================================================
+
+GOAL: Make travelingtypes.com show your website
+
+HOW: Change where cPanel looks for your website files
+
+================================================================================
+
+STEP-BY-STEP (Copy this and follow it):
+
+1. Open cPanel (log in)
+
+2. Click on "Addon Domains" (or "Subdomains" if you see that instead)
+
+3. Find "travelingtypes.com" in the list
+
+4. Click "Change" or "Modify" next to it
+
+5. Find the box that says "Document Root"
+
+6. Delete what's in that box
+
+7. Type this EXACTLY:
+   repositories/travelingtypes.com/backend/public
+
+8. Click "Save" or "Change"
+
+9. Wait 5 minutes
+
+10. Visit travelingtypes.com - it should work!
+
+================================================================================
+
+IF YOU GET STUCK:
+----------------
+Tell me:
+- Which step number you're on
+- What you see on your screen
+- What button names you see
+
+And I'll help you!
+
+================================================================================
+

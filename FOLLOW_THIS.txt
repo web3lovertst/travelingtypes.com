@@ -1,0 +1,54 @@
+================================================================================
+                    FOLLOW THESE EXACT STEPS - VERY SIMPLE
+================================================================================
+
+STEP 1: Open cPanel
+-------------------
+- Log into your cPanel account
+- You should see many icons/buttons
+
+STEP 2: Find "Addon Domains" or "Subdomains"
+----------------------------------------------
+- Look for a button/icon that says "Addon Domains" 
+- OR look for "Subdomains"
+- Click on it
+
+STEP 3: Find Your Domain
+-------------------------
+- You should see a list of domains
+- Find "travelingtypes.com" in the list
+- Look for a button next to it that says "Change" or "Modify" or "Edit"
+- Click that button
+
+STEP 4: Change the Path
+------------------------
+- You will see a box that says "Document Root" or "Root Domain"
+- DELETE what's in that box
+- TYPE THIS EXACTLY:
+  repositories/travelingtypes.com/backend/public
+
+STEP 5: Save
+------------
+- Click the "Change" or "Save" button
+- Wait 5 minutes
+- Visit travelingtypes.com in your browser
+- It should work!
+
+================================================================================
+
+IF YOU CAN'T FIND "Addon Domains":
+-----------------------------------
+Try looking for:
+- "Subdomains" 
+- "Domains"
+- "Domain Manager"
+- "Redirects"
+
+================================================================================
+
+IF YOU STILL CAN'T FIND IT:
+---------------------------
+Tell me what you see in your cPanel and I'll help you find the right button!
+
+================================================================================
+
